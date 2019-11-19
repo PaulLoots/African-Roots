@@ -1,0 +1,503 @@
+.navBox {
+  position: fixed;
+}
+
+.navbar-toggler {
+  border: none;
+  padding-right: 0px;
+}
+
+.mealTypeBar {
+  padding-bottom: 15px;
+  position: sticky;
+  padding-top: 80px;
+}
+
+.blurredRow {
+  overflow: hidden;
+  margin: 0;
+  margin-top: 130px;
+  height: 50px;
+  background-size: auto;
+  filter: blur(0px);
+}
+
+.blurredImg {
+  position: absolute;
+  width: 190%;
+  margin-left: -50%;
+  background-position: center;
+  height: 140%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px) brightness(40%) contrast(79%);
+}
+
+.FoodNameLabelWhite {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(255,255,255);
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+
+.detailsRow {
+  margin: 0;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.FoodPriceLabelMoney {
+  color: rgb(0,0,0);
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.addBasketBtn:hover {
+  color: #c6de40;
+  cursor: pointer;
+}
+
+.addBasketBtn:active {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center;
+  color: #788b16;
+}
+
+.addBasketBtn {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.DarkGreen {
+  color: #B4CF23;
+}
+
+.basketIcon {
+  font-size: 10px;
+  padding-right: 10px;
+}
+
+.softLine {
+  height: 1px;
+}
+
+.textSoft {
+  color: #D6D6D6;
+  background-color: #d6d6d6;
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-body {
+  border-radius: 5px;
+}
+
+body {
+  /*background: linear-gradient(90deg, #FFA33F 0%, #DE715B 100%);*/
+}
+
+.cartImg {
+  width: 12px;
+  height: 12px;
+  margin-top: -1px;
+  margin-right: 5px;
+}
+
+.cartHead {
+  height: 10vh;
+}
+
+.cartContainer {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 9999;
+  border-radius: 5px;
+}
+
+#tabDown {
+  height: 4px;
+  width: 30px;
+  margin: auto;
+  margin-top: 8px;
+  background-color: #2D2D2D;
+  border-radius: 5px;
+}
+
+.cartTab {
+  height: 15px;
+  padding-top: 5px;
+}
+
+.basketTotal {
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  margin-left: 20px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.basketHead {
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.cartImg2 {
+  height: 20px;
+  width: 20px;
+  margin-top: -4px;
+  margin-right: 5px;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.cartAmountTxt {
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.cardsContainer:hover {
+  padding-top: 30px;
+  padding-bottom: 15vh;
+}
+
+.cardsContainer {
+  padding-top: 30px;
+  padding-bottom: 15vh;
+  /*background: linear-gradient(180deg, #FFA33F 0%, #DE715B 100%);*/
+}
+
+.ccDown {
+  bottom: -90vh;
+}
+
+.ccUp {
+  top: 10px;
+}
+
+#tabUp {
+  margin: auto;
+  border-radius: 5px;
+  height: 8px;
+  display: table;
+  margin-top: 5px;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+@media only screen and (min-width: 992px) {
+  .cartBody {
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .CartTotalSection {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    padding-bottom: 15px !important;
+    bottom: -30px !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .cartContent {
+    position: sticky !important;
+    top: 0;
+    position: -webkit-sticky !important;
+    height: 100vh !important;
+    padding-bottom: 40px !important;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .cartContainer {
+    position: sticky;
+    z-index: 0;
+    margin-top: -150px;
+  }
+}
+
+.cartContent {
+  height: 90vh;
+  padding: 15px;
+  overflow: scroll;
+}
+
+.cartHeadColumn {
+  margin-top: 150px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.menuItem:hover {
+  padding-left: 0px;
+  padding-right: 0px;
+  transition: 0.3s;
+}
+
+.menuItem {
+  padding: 5px;
+  transition: all 0.3s !important;
+}
+
+.cartItem {
+  height: 120px;
+  overflow: hidden;
+}
+
+.cartItemImg {
+  background-image: url("../../assets/img/fa99fa2adb081f981d01e52b3f248bab.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FoodNameLabelBlack {
+  width: 100%;
+  text-align: left;
+  color: black;
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+
+.cartBody {
+}
+
+.FoodPriceLabelMoneyLeft {
+  color: rgb(0,0,0);
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.IngredientFoodPriceLabelMoneyLeft {
+  color: rgb(0,0,0);
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  text-align: right;
+  font-weight: 600;
+}
+
+.cartItemPriceCol {
+  position: absolute;
+  bottom: -15px;
+}
+
+.cartItemAmountSelect {
+  margin-top: 70px;
+}
+
+.IngredientCartItemAmountSelectCol {
+  position: absolute;
+}
+
+.cartItemAmountSelectCol {
+  position: absolute;
+  bottom: -15px;
+}
+
+.cartItemDevider {
+  height: 2px;
+  background-color: #F5F5F5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.CartTotalSection {
+  position: sticky;
+  z-index: 99999;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 130px;
+  border-top: 1px solid #FFA33F;
+  bottom: -10px;
+  position: -webkit-sticky;
+}
+
+.heightStopper {
+  height: 60vh;
+}
+
+.btnLogin {
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  height: 50px;
+  background-color: #FFA33F;
+  border: none;
+}
+
+.cartTotalPriceLabel {
+  color: rgb(0,0,0);
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  text-align: right;
+  font-weight: 400;
+}
+
+.navBG {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  height: 150px;
+  position: fixed;
+  z-index: 10;
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.navLogo {
+  width: 120px;
+  margin-left: -10px;
+}
+
+@media (max-width:768px) {
+  .hamburgerNavLink {
+    color: #FFA33F !important;
+  }
+}
+
+@media (max-width:768px) {
+  .navHamburgerItem {
+    margin-top: 2vh !important;
+    margin-bottom: 2vh !important;
+    font-family: Poppins, sans-serif;
+    font-size: 16pt;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+.active {
+  color: black !important;
+}
+
+.foodNameBlock {
+  padding: 0;
+}
+
+.menuItemImage {
+  height: 35vh;
+  background-image: url("../../assets/img/fa99fa2adb081f981d01e52b3f248bab.jpg");
+  background-size: cover;
+  background-position: top;
+  border: none;
+}
+
+.menuItemTotal {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  margin-left: 20px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.menuItemName {
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  margin-left: 20px;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.menuItemDetailsBody {
+  overflow: scroll;
+  height: 70%;
+}
+
+.modal-body {
+  padding-bottom: 100px;
+  padding: 35px;
+  border-radius: 3px;
+}
+
+h5 {
+  font-family: Poppins, sans-serif;
+}
+
+h6 {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  margin-left: 10px;
+  font-size: 10pt;
+}
+
+.MenuIngredientCol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.addBasketBtnLG {
+  font-size: 12pt;
+  color: white;
+}
+
+.cartImgLG {
+  height: 15px;
+  margin-right: 5px;
+  margin-top: -3px;
+}
+
+.menuItemFooter {
+  height: 70px;
+  padding-top: 22px;
+  background-color: #B4CF23;
+  border-radius: 5px;
+  margin: -20px;
+  margin-top: 0px;
+}
+
+@media (max-width:768px) {
+  .navCollapseCol {
+    height: 100vh;
+  }
+}
+
+.btnUserChange {
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  height: 50px;
+  border: none;
+}
+
